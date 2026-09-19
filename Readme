@@ -1,0 +1,8 @@
+Vamos usar a estrutura 'deque' da 'biblioteca' collections (para filas rápidas) e 
+dicionários para rastrear de onde viemos (para reconstruir o caminho final)
+
+Lista de Adjacência: O script usa um dicionário onde cada chave é um nó 
+e o valor é uma lista de vizinhos.
+
+Ciclos infinitos: O controle de visitados_ida e visitados_volta também serve para 
+impedir que o algoritmo fique andando em círculos, caso o grafo tenha ciclos.
