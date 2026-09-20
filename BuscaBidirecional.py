@@ -76,6 +76,7 @@ if __name__ == "__main__":
 print("\nBusca Bidirecional: A -> I")
 caminho = busca_bidirecional(grafo_exemplo, 'A', 'I')
 print(f"Caminho encontrado: {' -> '.join(caminho)}")
+
 print("\nBusca Bidirecional: A -> H")
 caminho = busca_bidirecional(grafo_exemplo, 'A', 'H')
 print(f"Caminho encontrado: {' -> '.join(caminho)}")

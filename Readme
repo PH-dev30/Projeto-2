@@ -1,4 +1,4 @@
-Vamos usar a estrutura 'deque' da 'biblioteca' collections (para filas rápidas) e 
+Vamos usar a estrutura 'deque' da biblioteca 'collections' (para filas rápidas) e 
 dicionários para rastrear de onde viemos (para reconstruir o caminho final)
 
 Lista de Adjacência: O script usa um dicionário onde cada chave é um nó 
